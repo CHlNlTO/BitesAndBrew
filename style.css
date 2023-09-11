@@ -1,0 +1,582 @@
+* {
+
+    padding: 0%;
+    margin: 0%;
+
+}
+
+body { 
+
+    overflow-x: hidden;
+
+}
+
+a {
+
+    text-decoration: none;
+    color:#fff;
+
+}
+
+h1 {
+
+    color: #fff;
+
+}
+
+@font-face {
+    
+    font-family: "AdamCGPro";
+    src: url("Fonts/ADAM-CG-PRO.otf");
+
+}
+
+@font-face {
+
+    font-family: "Aharoni";
+    src: url("Fonts/ahronbd.ttf");
+
+}
+
+@font-face {
+
+    font-family: "Baloo";
+    src: url("Fonts/Baloo-Regular.ttf");
+
+}
+
+.landing-page {
+
+    position: relative;
+
+}
+
+.hero-img {
+
+    position: relative;
+    top: 0px;
+    width: 100vw;
+    z-index: -1;
+
+}
+
+.logo-img {
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 1rem 0 0 1rem;
+    max-width: 10vw;
+    z-index: 9999;
+
+}
+
+.navbar-right {
+
+    max-width: 1000px;
+    position: absolute;
+    top: 70px;
+    right: 90px;
+
+}
+
+.nav-list {
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    font-size: clamp(0.6rem, 1.8vw, 5rem);
+    min-width: 30%;
+    gap: 1.7em;
+    align-items: start;
+    list-style: none;
+    font-family: "AdamCGPro";
+
+}
+
+.magnifying-glass {
+
+    width: 30px;
+
+}
+
+.hero-text {
+
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    font-size: clamp(.5rem, 0.1286rem + 2.8571vw, 3rem);
+    min-width: 30%;
+    font-family: "Aharoni";
+
+}
+
+.shop-now {
+
+    position: absolute;
+    top: 500px;
+    left: 45px;
+    padding: 1em;
+    font-size: clamp(1rem, 0.4rem + 1vw, 3rem);
+    max-width: 30%;
+    color: #fff;
+    font-family: "Baloo";
+    border-style: solid;
+    border-color: #fff;
+    background-color: transparent;
+
+}
+
+@media screen and (min-width: 1780px) {
+
+    .navbar-right {
+
+        max-width: 1000px;
+        position: absolute;
+        top: 70px;
+        right: 150px;
+    
+    }
+
+    .magnifying-glass {
+
+        width: 50px;
+    
+    }
+
+    .hero-text {
+
+        position: absolute;
+        top: 400px;
+        left: 55px;
+        font-size: clamp(.5rem, 0.1286rem + 2.8571vw, 7rem);
+        min-width: 30%;
+        font-family: "Aharoni";
+        
+    }
+
+    .shop-now {
+
+        position: absolute;
+        top: 640px;
+        left: 60px;
+        padding: 1em;
+        font-size: clamp(2rem, 0.4rem + 1vw, 3rem);
+        max-width: 30%;
+        color: #fff;
+        font-family: "Baloo";
+        border-style: solid;
+        border-color: #fff;
+        background-color: transparent;
+    
+    }
+  }
+
+@media screen and (min-width: 1900px) {
+
+    .shop-now {
+
+        position: absolute;
+        top: 700px;
+        left: 60px;
+        padding: 1em;
+        font-size: clamp(2rem, 0.4rem + 1vw, 3rem);
+        max-width: 30%;
+        color: #fff;
+        font-family: "Baloo";
+        border-style: solid;
+        border-color: #fff;
+        background-color: transparent;
+    
+    }
+
+}
+
+@media screen and (max-width: 1380px) {
+
+    .shop-now {
+
+        position: absolute;
+        top: 475px;
+        left: 45px;
+        padding: 1em;
+        font-size: clamp(1rem, 0.4rem + 1vw, 3rem);
+        max-width: 30%;
+        color: #fff;
+        font-family: "Baloo";
+        border-style: solid;
+        border-color: #fff;
+        background-color: transparent;
+    
+    }
+  }
+
+  @media screen and (max-width: 1180px) {
+
+    .shop-now {
+
+        position: absolute;
+        top: 450px;
+        left: 45px;
+        padding: 1em;
+        font-size: clamp(1rem, 0.4rem + 1vw, 3rem);
+        max-width: 30%;
+        color: #fff;
+        font-family: "Baloo";
+        border-style: solid;
+        border-color: #fff;
+        background-color: transparent;
+    
+    }
+  }
+
+@media screen and (max-width: 1090px) {
+
+    .navbar-right {
+
+        max-width: 1000px;
+        position: absolute;
+        top: 60px;
+        right: 80px;
+    
+    }
+    .magnifying-glass {
+
+        width: 30px;
+    
+    }
+
+    .hero-text {
+
+        position: absolute;
+        top: 250px;
+        left: 40px;
+        font-size: clamp(.5rem, 0.1286rem + 2.8571vw, 3rem);
+        min-width: 30%;
+        font-family: "Aharoni";
+        
+    }
+
+    .shop-now {
+
+        position: absolute;
+        top: 390px;
+        left: 45px;
+        padding: 1em;
+        font-size: clamp(1rem, 0.4rem + 1vw, 3rem);
+        max-width: 30%;
+        color: #fff;
+        font-family: "Baloo";
+        border-style: solid;
+        border-color: #fff;
+        background-color: transparent;
+    
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+
+    .hero-text {
+
+        position: absolute;
+        top: 220px;
+        left: 35px;
+        font-size: clamp(.5rem, 0.1286rem + 2.8571vw, 3rem);
+        min-width: 30%;
+        font-family: "Aharoni";
+        
+    }
+
+    .shop-now {
+
+        position: absolute;
+        top: 350px;
+        left: 45px;
+        padding: 1em;
+        font-size: clamp(1rem, 0.4rem + 1vw, 3rem);
+        max-width: 30%;
+        color: #fff;
+        font-family: "Baloo";
+        border-style: solid;
+        border-color: #fff;
+        background-color: transparent;
+    
+    }
+  }
+
+@media screen and (max-width: 860px) {
+
+    .navbar-right {
+
+        max-width: 1000px;
+        position: absolute;
+        top: 40px;
+        right: 70px;
+    
+    }
+
+    .magnifying-glass {
+
+        width: 20px;
+    
+    }
+
+    .hero-text {
+
+        position: absolute;
+        top: 180px;
+        left: 29px;
+        font-size: clamp(.5rem, 0.1286rem + 2.8571vw, 3rem);
+        min-width: 30%;
+        font-family: "Aharoni";
+        
+    }
+
+    .shop-now {
+
+        position: absolute;
+        top: 290px;
+        left: 35px;
+        padding: 1em;
+        font-size: clamp(1rem, 0.4rem + 1vw, 3rem);
+        max-width: 30%;
+        color: #fff;
+        font-family: "Baloo";
+        border-style: solid;
+        border-color: #fff;
+        background-color: transparent;
+    
+    }
+
+  }
+
+  @media screen and (max-width: 750px) {
+
+    .hero-text {
+
+        position: absolute;
+        top: 160px;
+        left: 25px;
+        font-size: clamp(.5rem, 0.1286rem + 2.8571vw, 5rem);
+        min-width: 30%;
+        font-family: "Aharoni";
+        
+    }
+
+    .shop-now {
+
+        position: absolute;
+        top: 260px;
+        left: 30px;
+        padding: 1em;
+        font-size: clamp(1rem, 0.4rem + 1vw, 3rem);
+        max-width: 30%;
+        color: #fff;
+        font-family: "Baloo";
+        border-style: solid;
+        border-color: #fff;
+        background-color: transparent;
+    
+    }
+
+  }
+
+  @media screen and (max-width: 650px) {
+
+    .hero-text {
+
+        position: absolute;
+        top: 140px;
+        left: 23px;
+        font-size: clamp(.5rem, 0.1286rem + 2.8571vw, 5rem);
+        min-width: 30%;
+        font-family: "Aharoni";
+        
+    }
+
+    .shop-now {
+
+        position: absolute;
+        top: 230px;
+        left: 30px;
+        padding: 1em;
+        font-size: clamp(1rem, 0.4rem + 1vw, 3rem);
+        max-width: 30%;
+        color: #fff;
+        font-family: "Baloo";
+        border-style: solid;
+        border-color: #fff;
+        background-color: transparent;
+    
+    }
+
+  }
+
+  @media screen and (max-width: 570px) {
+
+    .navbar-right {
+
+        max-width: 1000px;
+        position: absolute;
+        top: 40px;
+        right: 60px;
+    
+    }
+    .magnifying-glass {
+
+        width: 15px;
+    
+    }
+
+    .hero-text {
+
+        position: absolute;
+        top: 120px;
+        left: 23px;
+        font-size: clamp(.5rem, 0.1286rem + 2.8571vw, 5rem);
+        min-width: 30%;
+        font-family: "Aharoni";
+        
+    }
+
+    .shop-now {
+
+        position: absolute;
+        top: 200px;
+        left: 25px;
+        padding: 1em;
+        font-size: clamp(.8rem, 0.4rem + 1vw, 3rem);
+        max-width: 30%;
+        color: #fff;
+        font-family: "Baloo";
+        border-style: solid;
+        border-color: #fff;
+        background-color: transparent;
+    
+    }
+  }
+
+
+
+  @media screen and (max-width: 490px) {
+
+    .navbar-right {
+
+        max-width: 1000px;
+        position: absolute;
+        top: 30px;
+        right: 40px;
+    
+    }
+    .magnifying-glass {
+
+        width: 15px;
+    
+    }
+
+    .hero-text {
+
+        position: absolute;
+        top: 100px;
+        left: 22px;
+        font-size: clamp(.5rem, 0.1286rem + 2.8571vw, 5rem);
+        min-width: 30%;
+        font-family: "Aharoni";
+        
+    }
+
+    .shop-now {
+
+        position: absolute;
+        top: 170px;
+        left: 23px;
+        padding: 1em;
+        font-size: clamp(.6rem, 0.4rem + 1vw, 3rem);
+        max-width: 30%;
+        color: #fff;
+        font-family: "Baloo";
+        border-style: solid;
+        border-color: #fff;
+        background-color: transparent;
+    
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+
+    .shop-now {
+
+        position: absolute;
+        top: 160px;
+        left: 23px;
+        padding: 1em;
+        font-size: clamp(.6rem, 0.4rem + 1vw, 3rem);
+        max-width: 30%;
+        color: #fff;
+        font-family: "Baloo";
+        border-style: solid;
+        border-color: #fff;
+        background-color: transparent;
+    
+    }
+
+  }
+
+  @media screen and (max-width: 360px) {
+
+    .navbar-right {
+
+        max-width: 1000px;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    
+    }
+    .magnifying-glass {
+
+        width: 15px;
+    
+    }
+    .nav-list {
+
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        display: flex;
+        font-size: clamp(0.6rem, 1.8vw, 5rem);
+        min-width: 30%;
+        gap: 2.5em;
+        align-items: start;
+        list-style: none;
+        font-family: "AdamCGPro";
+    
+    }
+
+    .hero-text {
+
+        position: absolute;
+        top: 80px;
+        left: 21px;
+        font-size: clamp(.5rem, 0.1286rem + 2.8571vw, 5rem);
+        min-width: 30%;
+        font-family: "Aharoni";
+        
+    }
+
+    .shop-now {
+
+        position: absolute;
+        top: 130px;
+        left: 21px;
+        padding: 1em;
+        font-size: clamp(.6rem, 0.4rem + 1vw, 3rem);
+        max-width: 30%;
+        color: #fff;
+        font-family: "Baloo";
+        border-style: solid;
+        border-color: #fff;
+        background-color: transparent;
+    
+    }
+  }

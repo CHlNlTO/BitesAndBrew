@@ -98,6 +98,7 @@ h1 {
 .magnifying-glass {
 
     width: 30px;
+    cursor: pointer
 
 }
 
@@ -142,6 +143,7 @@ h1 {
     .magnifying-glass {
 
         width: 50px;
+        cursor: pointer
     
     }
 
@@ -244,6 +246,7 @@ h1 {
     .magnifying-glass {
 
         width: 30px;
+        cursor: pointer
     
     }
 
@@ -319,6 +322,7 @@ h1 {
     .magnifying-glass {
 
         width: 20px;
+        cursor: pointer
     
     }
 
@@ -426,6 +430,7 @@ h1 {
     .magnifying-glass {
 
         width: 15px;
+        cursor: pointer
     
     }
 
@@ -472,6 +477,7 @@ h1 {
     .magnifying-glass {
 
         width: 15px;
+        cursor: pointer;
     
     }
 
@@ -504,6 +510,22 @@ h1 {
   }
 
   @media screen and (max-width: 420px) {
+
+    .navbar-right {
+
+        max-width: 1000px;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    
+    }
+
+    .magnifying-glass {
+
+        width: 13px;
+        cursor: pointer;
+    
+    }
 
     .shop-now {
 
